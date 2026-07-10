@@ -2,7 +2,7 @@
 
 A personal portfolio website built with React, showcasing my projects, academic background, and skills as a Data Science undergraduate.
 
-🔗 **Live Site:** [Add your live URL here after deploying]
+🔗 **Live Site:** [https://hansika-portfolio-jet.vercel.app/](https://hansika-portfolio-jet.vercel.app/)
 
 ## About
 
