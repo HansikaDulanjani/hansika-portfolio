@@ -2,8 +2,9 @@ import {
   FaJava, FaPython, FaDatabase, FaHtml5, FaCss3Alt,
   FaJs, FaGitAlt, FaGithub, FaMicrosoft, FaChartBar,
   FaReact, FaCode, FaSitemap, FaLightbulb,
-  FaComments, FaUsers, FaCrown, FaBrain
+  FaComments, FaUsers, FaCrown, FaBrain, FaBook, FaNetworkWired, FaFileExcel
 } from 'react-icons/fa';
+import { SiJupyter, SiR } from 'react-icons/si';
 
 export default function Skills() {
   const skillGroups = [
@@ -30,6 +31,8 @@ export default function Skills() {
       skills: [
         { name: "Tableau", icon: <FaChartBar /> },
         { name: "Power BI", icon: <FaChartBar /> },
+        { name: "Jupyter Notebook", icon: <SiJupyter /> },
+        { name: "MS Excel", icon: <FaFileExcel /> },
       ],
     },
     {
@@ -38,6 +41,8 @@ export default function Skills() {
         { name: "Git", icon: <FaGitAlt /> },
         { name: "GitHub", icon: <FaGithub /> },
         { name: "MS Office", icon: <FaMicrosoft /> },
+        { name: "R Studio (Basic)", icon: <SiR /> },
+        { name: "Cisco (Basic)", icon: <FaNetworkWired /> },
       ],
     },
     {
