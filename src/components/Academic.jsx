@@ -33,7 +33,7 @@ export default function Academic() {
       ],
     },
     {
-      name: "Year 2 Semester 2 (Unofficial results published in official website)",
+      name: "Year 2 Semester 2 (Unofficial results)",
       gpa: "3.25",
       subjects: [
         { name: "Operating Systems and System Administration", grade: "B+" },
