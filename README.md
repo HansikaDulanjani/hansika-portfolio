@@ -1,16 +1,39 @@
-# React + Vite
+# Hansika Wijesinghe — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, showcasing my projects, academic background, and skills as a Data Science undergraduate.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [Add your live URL here after deploying]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+I'm a Data Science undergraduate at SLIIT with a strong interest in data, business, and IT-related roles. This portfolio showcases my individual and group projects, academic progress, technical skills, and certifications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Dark-themed, responsive design
+- Interactive academic progress tracker (semester-wise GPA breakdown)
+- Project showcase with GitHub links
+- Certificate gallery with zoom view
+- Visitor feedback system with admin approval (Firebase-powered)
+- Fully responsive on mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React, Vite, CSS
+- **Icons:** React Icons
+- **Database:** Firebase Firestore (for feedback system)
+- **Email:** EmailJS (notification on new feedback)
+- **Deployment:** Vercel
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+- **Email:** hansikadulanjani223@gmail.com
+- **LinkedIn:** [linkedin.com/in/hansika-wijesinghe](https://www.linkedin.com/in/hansika-wijesinghe/)
+- **GitHub:** [github.com/HansikaDulanjani](https://github.com/HansikaDulanjani)
