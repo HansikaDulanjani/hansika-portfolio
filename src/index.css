@@ -1,0 +1,43 @@
+:root {
+  /* Background colors - dark navy theme */
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #0f1729;
+  --bg-card: #131c2f;
+
+  /* Text colors */
+  --text-primary: #ffffff;
+  --text-secondary: #b8c1d9;
+  --text-muted: #7885a3;
+
+  /* Highlight blue (electric/shine blue) */
+  --accent-blue: #3b82f6;
+  --accent-blue-light: #60a5fa;
+  --accent-glow: #3b82f680;
+
+  /* Fonts */
+  --font-main: 'Inter', 'Segoe UI', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 60%, rgba(59, 130, 246, 0.06) 0%, transparent 40%),
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
