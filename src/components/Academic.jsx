@@ -68,10 +68,14 @@ export default function Academic() {
             <p className="gpa-label">CGPA</p>
             <p className="gpa-value">3.05</p>
           </div>
+
+          {/* wgpa card not available yet, so commented out for now
           <div className="gpa-card">
             <p className="gpa-label">WGPA</p>
             <p className="gpa-value">0.00</p>
           </div>
+          */}
+
         </div>
 
         <div className="semester-list">
