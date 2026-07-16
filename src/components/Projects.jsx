@@ -12,6 +12,17 @@ export default function Projects() {
       link: "https://github.com/HansikaDulanjani/colombo-realestate-sql.git",
     },
     {
+      title: "HR Compensation & Attrition Analytics Dashboard",
+      desc: "End-to-end HR analytics on 1,470 employee records — uncovering whether overtime, not pay, is the real driver of attrition through SQL analysis, statistical modeling, and an interactive Power BI dashboard.",
+      highlights: [
+      "Engineered role-relative salary quartiles and attrition cost estimates in Python",
+      "Validated attrition predictors with a Scikit-learn logistic regression model",
+      "4-page interactive Power BI dashboard with synced slicers and an at-risk employee table",
+      ],
+      tools: ["Python", "Pandas", "Scikit-learn", "MySQL", "Power BI"],
+      link: "https://github.com/HansikaDulanjani/hr-compensation-attrition-dashboard",
+    },
+    {
       title: "Customer Behavior Data Analyst Portfolio",
       desc: "End-to-end analysis of retail customer shopping behavior — data cleaning, EDA, SQL querying, and dashboard development to extract real business insights.",
       highlights: [
