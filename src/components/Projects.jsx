@@ -2,7 +2,7 @@ export default function Projects() {
   const individualProjects = [
     {
       title: "Colombo Real Estate Market Analysis",
-      desc: "End-to-end MySQL data analysis on 203,874 real property listings from ikman.lk — uncovering price trends, rental hotspots, and best-value areas through advanced SQL and an interactive Power BI dashboard.",
+      desc: "End-to-end MySQL data analysis on 203,874 real property listings from ikman.lk - uncovering price trends, rental hotspots, and best-value areas through advanced SQL and an interactive Power BI dashboard.",
       highlights: [
         "Cleaned 96,269 listings across 6 data-cleaning passes",
         "13+ advanced SQL queries (Window Functions, CTEs, Stored Procedures)",
@@ -13,7 +13,7 @@ export default function Projects() {
     },
     {
       title: "HR Compensation & Attrition Analytics Dashboard",
-      desc: "End-to-end HR analytics on 1,470 employee records — uncovering whether overtime, not pay, is the real driver of attrition through SQL analysis, statistical modeling, and an interactive Power BI dashboard.",
+      desc: "End-to-end HR analytics on 1,470 employee records - uncovering whether overtime, not pay, is the real driver of attrition through SQL analysis, statistical modeling, and an interactive Power BI dashboard.",
       highlights: [
       "Engineered role-relative salary quartiles and attrition cost estimates in Python",
       "Validated attrition predictors with a Scikit-learn logistic regression model",
@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "Customer Behavior Data Analyst Portfolio",
-      desc: "End-to-end analysis of retail customer shopping behavior — data cleaning, EDA, SQL querying, and dashboard development to extract real business insights.",
+      desc: "End-to-end analysis of retail customer shopping behavior - data cleaning, EDA, SQL querying, and dashboard development to extract real business insights.",
       highlights: [
         "Integrated Python with MySQL using SQLAlchemy",
         "10 advanced SQL business queries on revenue & segmentation",
@@ -35,7 +35,7 @@ export default function Projects() {
     },
     {
       title: "Codveda Data Analytics Internship Project",
-      desc: "Internship project covering the full spectrum of data science — EDA, regression, time series, clustering, churn prediction, and NLP sentiment analysis.",
+      desc: "Internship project covering the full spectrum of data science - EDA, regression, time series, clustering, churn prediction, and NLP sentiment analysis.",
       highlights: [
         "Built regression & customer churn prediction models",
         "Applied time series analysis and clustering",
@@ -68,14 +68,14 @@ export default function Projects() {
     {
       title: "CinePass Mobile App",
       desc: "Mobile application for cinema ticket management, built with React Native.",
-      contribution: "Hall & Showtime Management — Add/Edit/Delete Halls and show times.",
+      contribution: "Hall & Showtime Management - Add/Edit/Delete Halls and show times.",
       tools: ["React Native", "Mobile Dev"],
       link: "https://github.com/Hasanthii/cinepass-app.git",
     },
     {
       title: "Pretty Touch – Beauty Salon Website",
       desc: "Web-based salon management system.",
-      contribution: "Services & Offers Management — CRUD operations for salon services and offers.",
+      contribution: "Services & Offers Management - CRUD operations for salon services and offers.",
       tools: ["Web Development"],
       link: null,
     },
@@ -89,7 +89,7 @@ export default function Projects() {
     {
       title: "Smart Traffic Management System",
       desc: "Arduino-based smart traffic management system (Year 1, Semester 1 project).",
-      contribution: "Team project — traffic control logic and hardware integration.",
+      contribution: "Team project - traffic control logic and hardware integration.",
       tools: ["Arduino", "C"],
       link: null,
     },
