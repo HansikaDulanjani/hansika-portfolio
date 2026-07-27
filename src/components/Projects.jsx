@@ -1,6 +1,18 @@
 export default function Projects() {
   const individualProjects = [
-    {
+  {
+    title: "Grocery Inventory Management Dashboard",
+    desc: "An interactive Excel dashboard analyzing 990 grocery products across 7 categories — tracking stock levels, reorder alerts, and inventory value to help identify stockout risks and slow-moving inventory in real time.",
+    highlights: [
+      "Cleaned and structured a 990-row raw dataset into a dynamic Excel Table",
+      "Built calculated fields (Stock Value, automated Reorder Status alerts, Days Since Last Order) for live updates",
+      "In progress: Pivot Tables, KPI cards, interactive charts, and slicers",
+      ],
+    tools: ["Microsoft Excel", "Pivot Tables", "Power Query", "Data Cleaning"],
+    link: null,
+    ongoing: true,
+  },    
+  {
       title: "Colombo Real Estate Market Analysis",
       desc: "End-to-end MySQL data analysis on 203,874 real property listings from ikman.lk - uncovering price trends, rental hotspots, and best-value areas through advanced SQL and an interactive Power BI dashboard.",
       highlights: [
@@ -101,16 +113,19 @@ export default function Projects() {
 
       <h3 className="projects-subtitle">Individual Projects</h3>
       <div className="projects-grid">
-        {individualProjects.map((proj, i) => (
-          <div key={i} className="project-card">
-            <h4 className="project-title">{proj.title}</h4>
-            <p className="project-desc">{proj.desc}</p>
-            <ul className="project-highlights">
-              {proj.highlights.map((h, j) => <li key={j}>{h}</li>)}
-            </ul>
-            <div className="project-tools">
-              {proj.tools.map((tool, k) => <span key={k} className="tool-tag">{tool}</span>)}
-            </div>
+      {individualProjects.map((proj, i) => (
+        <div key={i} className="project-card">
+          <h4 className="project-title">
+            {proj.title}
+            {proj.ongoing && <span className="ongoing-badge">Ongoing</span>}
+          </h4>
+          <p className="project-desc">{proj.desc}</p>
+          <ul className="project-highlights">
+            {proj.highlights.map((h, j) => <li key={j}>{h}</li>)}
+          </ul>
+        <div className="project-tools">
+            {proj.tools.map((tool, k) => <span key={k} className="tool-tag">{tool}</span>)}
+        </div>
             {proj.link && (
               <a href={proj.link} target="_blank" rel="noopener noreferrer" className="project-link">
                 View on GitHub →

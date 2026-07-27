@@ -11,7 +11,7 @@ export default function About() {
           pattern finally showing up genuinely exciting.
         </p>
         <p>
-          My toolkit spans SQL, Python, Power BI, and Tableau, backed by a solid grounding
+          My toolkit spans SQL, Python, R, Power BI, and Tableau, backed by a solid grounding
           in problem-solving and analytical thinking. I care about doing the unglamorous
           work properly clean data, sound queries, dashboards that actually answer the
           question. Because that's what makes an analysis trustworthy.

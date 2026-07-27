@@ -41,7 +41,7 @@ export default function Skills() {
         { name: "Git", icon: <FaGitAlt /> },
         { name: "GitHub", icon: <FaGithub /> },
         { name: "MS Office", icon: <FaMicrosoft /> },
-        { name: "R Studio (Basic)", icon: <SiR /> },
+        { name: "R Studio", icon: <SiR /> },
         { name: "Cisco (Basic)", icon: <FaNetworkWired /> },
       ],
     },

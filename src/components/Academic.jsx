@@ -33,7 +33,7 @@ export default function Academic() {
       ],
     },
     {
-      name: "Year 2 Semester 2 (Unofficial results)",
+      name: "Year 2 Semester 2",
       gpa: "3.25",
       subjects: [
         { name: "Operating Systems and System Administration", grade: "B+" },
@@ -66,7 +66,7 @@ export default function Academic() {
         <div className="gpa-cards">
           <div className="gpa-card">
             <p className="gpa-label">CGPA</p>
-            <p className="gpa-value">3.05</p>
+            <p className="gpa-value">3.04</p>
           </div>
 
           {/* wgpa card not available yet, so commented out for now
