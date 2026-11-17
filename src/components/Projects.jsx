@@ -101,6 +101,7 @@ export default function Projects() {
       "Compared Logistic Regression, Random Forest, Decision Tree, and XGBoost",
       "Built an interactive Streamlit dashboard (KickCast) showing predictions and probabilities",
     ],
+    contribution: "Data quality checks and data preprocessing, and training the Random Forest model.",
     tools: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Streamlit", "Matplotlib"],
     link: null,
   },
