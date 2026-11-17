@@ -43,8 +43,8 @@ export default function Academic() {
       ],
     },
     {
-      name: "Year 3 Semester 1 - Ongoing...",
-      gpa: "",
+      name: "Year 3 Semester 1 - Completed",
+      gpa: "Not released",
       subjects: [
         { name: "Statistical Modeling", grade: "" },
         { name: "Machine Learning", grade: "" },
@@ -60,7 +60,7 @@ export default function Academic() {
     <h2 className="section-title">Academic Records</h2>
 
     <div className="academic-layout">
-      <DegreeProgress totalSemesters={8} completed={4} ongoing={1} />
+      <DegreeProgress totalSemesters={8} completed={5} ongoing={0} />
 
       <div className="academic-content">
         <div className="gpa-cards">
