@@ -1399,3 +1399,10 @@ section:nth-child(even) {
   margin-left: 10px;
   vertical-align: middle;
 }
+
+.project-module {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin: -6px 0 12px;
+}

@@ -70,6 +70,40 @@ export default function Projects() {
   ];
 
   const groupProjects = [
+  {
+    title: "Hotel Customer Satisfaction Analysis",
+    module: "IT3081 – Statistical Modelling",
+    desc: "Analysis of 14,838 customer reviews across nine hotels to identify satisfaction trends and performance gaps.",
+    highlights: [
+      "Applied ANOVA, regression, PCA, and classification to evaluate hotel performance",
+      "Proposed a Hotel Customer Satisfaction Decision Support System for data-driven decisions",
+    ],
+    tools: ["Python", "Pandas", "Scikit-learn", "Statistical Analysis", "Data Visualization"],
+    link: null,
+  },
+  {
+    title: "Banking Transaction Data Warehouse & BI Dashboard",
+    module: "IT3101 – Data Warehousing & Business Intelligence",
+    desc: "A banking data warehouse built in Microsoft SQL Server using a Star Schema, with interactive Power BI reporting.",
+    highlights: [
+      "Developed a Banking Transaction Data Mart with fact and dimension tables",
+      "Built Power BI dashboards for transaction trends, regional performance, and banking KPIs",
+    ],
+    tools: ["SQL Server", "SQL", "Power BI", "Data Modelling", "Data Warehousing"],
+    link: null,
+  },
+  {
+    title: "European Soccer Match Outcome Prediction",
+    module: "IT3091 – Machine Learning",
+    desc: "Machine learning models that predict football match outcomes (Home Win, Draw, Away Win) from 25,979 historical matches across 11 European leagues.",
+    highlights: [
+      "Preprocessing, feature engineering and selection, and hyperparameter tuning",
+      "Compared Logistic Regression, Random Forest, Decision Tree, and XGBoost",
+      "Built an interactive Streamlit dashboard (KickCast) showing predictions and probabilities",
+    ],
+    tools: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Streamlit", "Matplotlib"],
+    link: null,
+  },
     {
       title: "Pink Petals – AI Powered Skincare E-Commerce",
       desc: "AI-powered skincare e-commerce platform with sales prediction and review analysis.",
@@ -138,20 +172,28 @@ export default function Projects() {
       <h3 className="projects-subtitle">University Group Projects</h3>
       <div className="projects-grid">
         {groupProjects.map((proj, i) => (
-          <div key={i} className="project-card">
-            <h4 className="project-title">{proj.title}</h4>
-            <p className="project-desc">{proj.desc}</p>
-            <p className="project-contribution"><strong>My Contribution:</strong> {proj.contribution}</p>
-            <div className="project-tools">
-              {proj.tools.map((tool, k) => <span key={k} className="tool-tag">{tool}</span>)}
-            </div>
-            {proj.link && (
-              <a href={proj.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                View on GitHub →
-              </a>
-            )}
-          </div>
-        ))}
+  <div key={i} className="project-card">
+    <h4 className="project-title">{proj.title}</h4>
+    {proj.module && <p className="project-module">{proj.module}</p>}
+    <p className="project-desc">{proj.desc}</p>
+    {proj.highlights && (
+      <ul className="project-highlights">
+        {proj.highlights.map((h, j) => <li key={j}>{h}</li>)}
+      </ul>
+    )}
+    {proj.contribution && (
+      <p className="project-contribution"><strong>My Contribution:</strong> {proj.contribution}</p>
+    )}
+    <div className="project-tools">
+      {proj.tools.map((tool, k) => <span key={k} className="tool-tag">{tool}</span>)}
+    </div>
+    {proj.link && (
+      <a href={proj.link} target="_blank" rel="noopener noreferrer" className="project-link">
+        View on GitHub →
+      </a>
+    )}
+  </div>
+))}
       </div>
     </section>
   );
